@@ -1,6 +1,9 @@
 {
     "name": "atkrad/webhook-event-manager",
-    "description": "Web hook event manager",
+    "description": "WebHook Event Manager is a simple library to help parse webhook payloads from some services (GitHub, BitBucket)",
+    "keywords": ["webhook", "event", "manager", "github", "payload", "bitbucket", "post receive"],
+    "version": "0.1.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mohammad Abdoli Rad",

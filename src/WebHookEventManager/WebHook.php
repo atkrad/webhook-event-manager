@@ -37,7 +37,7 @@ class WebHook
         if ($request->isValidOrigin()) {
             $data = $request->getContent();
         } else {
-            $data = null;
+            $data = '{}';
         }
 
         $payload = new \WebHookEventManager\Service\GitHub\WebHook($data);

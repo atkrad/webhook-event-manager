@@ -28,20 +28,20 @@ use WebHookEventManager\WebHook;
 $webHook = new WebHook();
 
 //Get repository owner's avatar url
-$avatarUrl = $web->getGitHubService()
+$avatarUrl = $webHook->getGitHubService()
     ->getIssuesEvent()
     ->getRepository()
     ->getOwner()
     ->getAvatarUrl();
 
 //Get sender's followers url
-$followersUrl = $web->getGitHubService()
+$followersUrl = $webHook->getGitHubService()
     ->getIssuesEvent()
     ->getSender()
     ->getFollowersUrl();
 
 //Get pusher's username
-$pusherUsername = $web->getGitHubService()
+$pusherUsername = $webHook->getGitHubService()
     ->getPushEvent()
     ->getPusher()
     ->getUsername();

@@ -99,7 +99,7 @@ trait Accessor
         } elseif ($this->isSetMethod($methodName)) {
             return lcfirst(str_replace('set', '', $methodName));
         }
-        new Stdclass;
+
         return null;
     }
 

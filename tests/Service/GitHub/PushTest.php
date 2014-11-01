@@ -11,13 +11,14 @@
  * @since     Version 0.1.0
  * @license   http://opensource.org/licenses/MIT MIT license
  */
-namespace WebHookEventManager\Service\GitHub;
+namespace WebHookEventManager\Tests\Service\GitHub;
 
 use PHPUnit_Framework_TestCase;
 use WebHookEventManager\Service\GitHub\Event\Push\Commit;
 use WebHookEventManager\Service\GitHub\Event\Push\Payload;
 use WebHookEventManager\Service\GitHub\Event\Push\Person;
 use WebHookEventManager\Service\GitHub\Event\Push\Repository;
+use WebHookEventManager\Service\GitHub\WebHook;
 
 /**
  * Class PushTest

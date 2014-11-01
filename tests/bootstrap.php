@@ -12,7 +12,7 @@
  * @license   http://opensource.org/licenses/MIT MIT license
  */
 define('DS', DIRECTORY_SEPARATOR);
-define('FIXTURES_DIR', __DIR__ . DS . 'WebHookEventManager' . DS . 'Fixtures');
+define('FIXTURES_DIR', __DIR__ . DS . 'Fixtures');
 define('GITHUB_FIXTURES_DIR', FIXTURES_DIR . DS . 'GitHub');
 
 include __DIR__ . DS . '..' . DS . 'vendor' . DS . 'autoload.php';

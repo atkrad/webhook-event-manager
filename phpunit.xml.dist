@@ -10,13 +10,13 @@
         colors="true">
     <testsuites>
         <testsuite name="WebHook Event Manager">
-            <directory>tests/WebHookEventManager/</directory>
+            <directory>tests/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">src/WebHookEventManager/</directory>
+            <directory suffix=".php">src/</directory>
         </whitelist>
     </filter>
 </phpunit>

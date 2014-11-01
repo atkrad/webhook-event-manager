@@ -24,10 +24,10 @@ use WebHookEventManager\Accessor;
  * @method string getAfter() Get after
  * @method string getBefore() Get before
  * @method string getCompare() Get compare
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Commit[] getCommits() Get commits
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Commit getHeadCommit() Get head commit
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Repository getRepository() Get repository
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Person getPusher() Get pusher
+ * @method Commit[] getCommits() Get commits
+ * @method Commit getHeadCommit() Get head commit
+ * @method Repository getRepository() Get repository
+ * @method Person getPusher() Get pusher
  *
  * @package WebHookEventManager\Service\GitHub\Event\Push
  */

@@ -24,8 +24,8 @@ use WebHookEventManager\Accessor;
  * @method string getMessage() Get message
  * @method string getTimestamp() Get timestamp
  * @method string getUrl() Get url
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Person getAuthor() Get author
- * @method \WebHookEventManager\Service\GitHub\Event\Push\Person getCommitter() Get committer
+ * @method Person getAuthor() Get author
+ * @method Person getCommitter() Get committer
  * @method array getAdded() Get added
  * @method array getRemoved() Get removed
  * @method array getModified() Get modified
